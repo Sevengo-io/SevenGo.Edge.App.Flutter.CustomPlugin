@@ -1,1 +1,7 @@
-<manifest package="dev.fluttercommunity.plus.sensors" />
+<manifest package="dev.fluttercommunity.plus.sensors"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS"/>
+
+</manifest>
